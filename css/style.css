@@ -1,0 +1,27 @@
+
+/*cuerpo de la consola*/
+.cuerpo{
+    position: absolute;
+    display: flex;
+    margin: 20px auto;
+    margin-left: 4em;
+    /*altura del cuerpo*/
+    padding-bottom: 25em;
+    /*redondeo de los bordes */
+    border-bottom-left-radius: 3em;
+    border-bottom-right-radius: 3em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    z-index: 1;
+    /*tamaño del cuerpo*/
+    width: 25rem;
+    weight: 50rem;
+    padding-bottom: 43em;
+    /*color principal*/
+    background:rgb(27, 126, 109);   
+    box-shadow: 10px 11px 0px -3px rgba(9,54,9,0.58),63px 26px 34px -3px rgba(0,0,0,0.58);
+}
+
+
+
+

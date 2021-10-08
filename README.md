@@ -88,4 +88,25 @@ a la hora de encontrar donde está cada parte de la consola siendo la estructura
 
 ...
 
+### JavaScript
 
+En la parte de código de JavaScript se ha conseguido que al pulsar el boton de START  cambie el color del piloto rojo que indica que la consola está
+apagada y lo cambie al verde que indica que está encendida.
+Además hay una imagen desactivada mientras la consola está apagada y la activa al encenderla como muestra el siguiente código:
+
+...
+
+var luzV = document.getElementById("luz");
+var imagenM=document.getElementById("imagen").style.visibility="hidden";
+
+function Start() {
+     
+     if(onclick = true){
+        document.getElementById('luz').style.background = '#2EFC00 ';
+        document.getElementById("imagen").style.visibility="visible";
+        console.log("entra")
+     }
+     
+ }
+
+...
